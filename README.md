@@ -2,9 +2,9 @@
 # Overview
 This file contains the SQL queries I wrote to solve a few problems related to a hospital database. The main goal was to answer three specific questions about doctors, patients, and their admissions. Here's a quick breakdown of what the queries do:
 
--> Find doctors who have at least one patient admission.
--> Find doctors who don’t have any patient admissions.
--> Find patients whose admission couldn’t be completed because of missing doctor details.
+1) Find doctors who have at least one patient admission.
+2) Find doctors who don’t have any patient admissions.
+3) Find patients whose admission couldn’t be completed because of missing doctor details.
 # Design Decisions
 When I wrote these queries, I made sure to focus on clarity and efficiency. I joined the necessary tables (Doctors, Patients, Admissions) to get the information needed. I also made sure to avoid using specific doctor_id or patient_id values directly in the queries, as the exercise asked for this approach.
 
